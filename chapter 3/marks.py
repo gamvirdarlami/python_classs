@@ -1,0 +1,8 @@
+nep = int(input("enter marks of nepali:"))
+sci = int(input("enter marks of sci:"))
+math = int(input("enter marks of math:"))
+eng = int(input("enter marks of eng:"))
+pop = int(input("enter marks of pop:"))
+obtained_marks = int(nep + sci+ math + eng + pop)
+total_percentage = int((obtained_marks/500)*100)
+print(total_percentage)
